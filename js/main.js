@@ -3,8 +3,8 @@
 
   function app() {
     return {
-    	hi: function(name) {
-    		return "Hi" + name;
+    	hello: function(name) {
+    		return "Hello, " + name;
     	}
     };
   }
