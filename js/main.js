@@ -2,7 +2,11 @@
   'use strict';
 
   function app() {
-    return {};
+    return {
+    	hi: function(name) {
+    		return "Hi" + name;
+    	}
+    };
   }
 
   win.app = app();
